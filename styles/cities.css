@@ -1,0 +1,48 @@
+#cities {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#cities-container {
+  background: var(--gray);
+
+  padding: 4rem 11.5rem;
+
+  border-radius: 2rem;
+}
+
+#cities-container h1 {
+  font-size: 3rem;
+  font-weight: 600;
+
+  margin-bottom: 1.4rem;
+}
+
+#cities-container div {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+#cities-container div a {
+  border: 2px solid rgba(51, 41, 39, 0.3);
+
+  background: var(--white);
+
+  color: rgba(51, 41, 39, 0.3);
+
+  border-radius: 1rem;
+
+  font-size: 1.4rem;
+  font-weight: 600;
+
+  padding: 0.5rem 1.4rem;
+
+  margin: 0.8rem 0.8rem 0.8rem 0;
+}
+
+#cities-container div a:hover {
+  color: rgba(51, 41, 39, 0.6);
+
+  border: 2px solid rgba(51, 41, 39, 0.6);
+}

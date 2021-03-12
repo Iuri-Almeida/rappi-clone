@@ -1,0 +1,35 @@
+#question-container {
+  margin-top: 6rem;
+
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+
+  background: var(--gray);
+
+  display: flex;
+  align-items: center;
+}
+
+#question h1 {
+  font-size: 3.4rem;
+  font-weight: 600;
+
+  margin: 3rem 0;
+}
+
+#question p {
+  font-size: 1.5rem;
+  font-weight: 400;
+
+  opacity: 0.6;
+}
+
+#question-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#question-image img {
+  width: 40rem;
+}

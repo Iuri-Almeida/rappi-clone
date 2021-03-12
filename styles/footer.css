@@ -1,0 +1,91 @@
+footer {
+  padding: 4rem 11.5rem;
+
+  background: var(--gray);
+}
+
+#footer-infos {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.footer-info {
+  width: 41rem;
+}
+
+.footer-info h1,
+#contact h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+
+  color: var(--title);
+
+  margin-bottom: 4rem;
+}
+
+.footer-info div {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.footer-info div a {
+  font-size: 1.2rem;
+  font-weight: 400;
+
+  color: var(--title);
+
+  opacity: 0.7;
+
+  margin-bottom: 1rem;
+}
+
+#app,
+#social-media,
+#legal {
+  margin-bottom: 4rem;
+}
+
+#app a {
+  display: block;
+}
+
+#app a img[alt="App Store"] {
+  margin-left: 0.8rem;
+}
+
+#app a img[alt="Play Store"] {
+  width: 13.8rem;
+  height: 6rem;
+}
+
+#social-media a {
+  margin-right: 1.5rem;
+}
+
+#legal a img {
+  width: 10rem;
+
+  margin: 0 1rem;
+}
+
+footer hr {
+  opacity: 0.1;
+}
+
+#countries {
+  margin-top: 1rem;
+}
+
+#countries a {
+  font-size: 1.2rem;
+  font-weight: 400;
+
+  color: var(--title);
+
+  letter-spacing: 0;
+
+  opacity: 0.85;
+
+  margin-right: 3.4rem;
+}

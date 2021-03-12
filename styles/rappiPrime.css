@@ -1,0 +1,67 @@
+#rappi-prime {
+  margin-top: 9rem;
+}
+
+#rappi-prime img + div {
+  margin-top: 8rem;
+
+  display: flex;
+}
+
+.info {
+  margin-bottom: 3rem;
+
+  color: var(--title);
+}
+
+.info div {
+  display: flex;
+  align-items: center;
+
+  font-size: 1.2rem;
+  font-weight: 600;
+
+  margin-bottom: 2rem;
+}
+
+.info div img {
+  margin-right: 0.6rem;
+}
+
+.info span {
+  margin-left: 3rem;
+
+  opacity: 0.7;
+
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+#infos button {
+  width: 16.4rem;
+  height: 4.8rem;
+
+  margin-top: 6rem;
+
+  border: 0;
+
+  background: var(--green);
+
+  border-radius: 1rem;
+
+  color: var(--white);
+
+  font-size: 1.4rem;
+  font-weight: 400;
+
+  transition: opacity 0.2s;
+}
+
+#infos button:hover {
+  opacity: 0.8;
+}
+
+#image img {
+  width: 60rem;
+  height: 43.3rem;
+}

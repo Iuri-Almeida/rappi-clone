@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+:root {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+
+  letter-spacing: -0.1rem;
+
+  --white: #fff;
+  --rappi-orange: rgba(255, 68, 34);
+  --green: rgb(0, 198, 108);
+  --title: rgb(51, 41, 39);
+  --gray: rgb(248, 247, 247);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  background: var(--white);
+}
+
+#container {
+  width: 100%;
+}
+
+main section {
+  padding-right: 11.5rem;
+  padding-left: 11.5rem;
+}

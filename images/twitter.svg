@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32">
+    <rect width="32" height="32" fill="#1DA1F2" rx="16"/>
+    <mask id="isprndo65a" width="32" height="32" x="0" y="0" maskUnits="userSpaceOnUse">
+        <rect width="32" height="32" fill="#fff" rx="16"/>
+    </mask>
+    <g mask="url(#isprndo65a)">
+        <path fill="#fff" fill-rule="evenodd" d="M23.466 9.606c-.65.442-1.37.78-2.13 1-.838-.927-2.188-1.252-3.38-.814-1.192.439-1.973 1.547-1.956 2.776v.654c-2.423.06-4.716-1.051-6.11-2.962 0 0-2.714 5.885 3.395 8.5-1.398.915-3.063 1.373-4.752 1.309 6.11 3.269 13.576 0 13.576-7.52 0-.182-.019-.364-.054-.543.692-.658 1.181-1.489 1.412-2.4z" clip-rule="evenodd"/>
+    </g>
+</svg>
